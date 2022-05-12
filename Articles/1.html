@@ -4,6 +4,9 @@
   <base href="3arrow.github.io" target="_blank">
   <link rel="icon" href="../favicon.png">
   <link rel="stylesheet" href="./Articles.css" type="text/css" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
 </head>
 
 <body>
@@ -12,11 +15,28 @@
 <h2>作者:3arrow 更新时间:2022/05/11</h2>
 <p>互联网无处不在</p>
 
-
 <!-- Gitalk -->
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
 
-<!-- Gitalk end -->
+    // gitalk的主要参数
+        clientID: '516ab00df112f0b85ae4',
+        clientSecret: '88b87e9781316b7d1f76e70ad3a0aa534e2d2723 ',
+        repo: 'talktest',
+        owner: '3arrow',
+        admin: ['3arrow'],
+        id:decodeURI(window.location.pathname),
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+
+<!--Gitalk end-->
 <br>
+
 <p>联系我:wjz99813@outlook.com</p>
 </div>
 </body>
