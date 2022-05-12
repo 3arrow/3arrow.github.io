@@ -9,7 +9,7 @@
 
 </head>
 <body>
- <div style="display: block; margin: 0 auto; width: 60%;">
+ <div style="display: block; margin: 0 auto; width: 60%;" class="box1">
 
   <h1>3ArЯ0ω'B1og</h1>
   <a href="./feed.xml">
@@ -56,4 +56,17 @@
   // -->  
   </script>  
 <!--随机语录end-->
+<link rel="stylesheet" type="text/css" href="./style.css">
+  <div id="container">
+    <label class="switch">
+      <input type="checkbox" onclick="changeMode()">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script>
+    function changeMode(){
+      var element =document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
