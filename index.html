@@ -17,10 +17,10 @@
   </a>
 
   <h2>关于我</h2>
-	 	  <a href="./AboutMe.html" style="text-decoration: none; color: #000000">关于我,3arrow</a>
+	 	  <a href="./AboutMe.html" style="text-decoration: none;">关于我,3arrow</a>
 <!--1-->
      <h2>文章：</h2>
-      <a href="./Articles/1.html" target="_blank" style="text-decoration: none; color: #000000">2022年,互联网里的一席之地</a>
+      <a href="./Articles/1.html" target="_blank" style="text-decoration: none;">2022年,互联网里的一席之地</a>
        <p>作者:3arrow 更新时间:2022年5月11日深夜</p>
       
      <h2>联系方式：</h2>
@@ -33,9 +33,9 @@
 <!--随机语录begin-->
 <div class="link">
   <script language="JavaScript">  
-  
+
   var a = Math.random() + ""          //产生一个随机数  
-  var rand1 = a.charAt(5)             //的到这个数的第五个字符(实际还是从0~9的数字)  
+  var rand1 = a.charAt(5)             //到这个数的第五个字符(实际还是从0~9的数字)  
   quotes = new Array              //创建消息数组  
   quotes[1] = '「一生经过彷徨的挣扎 自信可改变未来 问谁又能做到」'
   quotes[2] = '你是从什么途径来到我的博客的？'  
@@ -52,10 +52,12 @@
   </script>  
   <script language="JavaScript">  
   <!-- Hide  
-  document.write("<font color='black'>"+quote+"</font>")     //将上面选择的话写进页面  
+  document.write("<a>"+quote+"</a>")     //将上面选择的话写进页面  
   // -->  
   </script>  
 <!--随机语录end-->
+
+<!--明暗模式切换begin-->
 <link rel="stylesheet" type="text/css" href="./style.css">
   <div id="container">
     <label class="switch">
@@ -69,4 +71,5 @@
       element.classList.toggle("dark-mode");
     }
   </script>
+<!--明暗模式切换end-->
 </body>

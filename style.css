@@ -59,3 +59,15 @@ input:checked + .slider::before{
 .dark-mode p{
     color: #f7f0e9;
 }
+.dark-mode a{
+    color: #f7f0e9;
+}
+a{
+    color: #0b0a14;
+}
+.dark-mode a[i]{
+    color: #f7f0e9;
+}
+.dark-mode document.write{
+    color: #f7f0e9;
+}
