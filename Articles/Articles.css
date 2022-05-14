@@ -64,6 +64,9 @@
    border-radius: 50%;
    transition: .4s; 
 }
+.dark-mode .slider{
+    background: #0b0;
+}
 .input:checked + .slider{
     background: #b892ff;
 }
