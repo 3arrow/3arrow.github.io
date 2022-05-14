@@ -3,23 +3,33 @@
   <title>3ArЯ0ω'B1og</title>
   <base href="3arrow.github.io" target="_blank">
   <link rel="icon" href="../favicon.png">
-  <link rel="stylesheet" href="./Articles.css" type="text/css" />
-  <meta http-equiv="cache-control" content="no-cache" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="expires" content="0" />
+  <link rel="stylesheet" href="./Articles.css" type="text/css" >
+  <meta http-equiv="cache-control" content="no-cache" >
+  <meta http-equiv="Pragma" content="no-cache" >
+  <meta http-equiv="expires" content="0" >
 </head>
 
 <body>
-<div style="display: block; margin: 0 auto; width: 60%;">
-<h1>2022年,互联网里的一席之地</h1>
-<h2>作者:3arrow 更新时间:2022/05/11</h2>
-<p>互联网无处不在</p>
+<div style="display: block; margin: 0 auto; min-width: 600px; max-width: 900px">
+  <a href="../index.html" style="text-decoration: none; color: #000000" target="_self">←返回首页</a>
+
+  <div class="articles_title">
+  <h1>2022年,互联网里的一席之地</h1>
+  </div>
+
+  <div class="articles_author">
+  <h2>作者:3arrow 更新时间:2022/05/11</h2>
+  </div>
+
+  <div class="articles_content">
+  <p>互联网无处不在</p>
+  </div>
 
 <!-- Gitalk -->
 <!-- Link Gitalk 的支持文件  -->
-<link href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.css" rel="stylesheet">
-<script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
-<div id="gitalk-container"></div>     <script type="text/javascript">
+  <link href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.min.js"></script>
+  <div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
 
     // gitalk的主要参数
@@ -38,5 +48,22 @@
 <br>
 
 <p>联系我:wjz99813@outlook.com</p>
+
+<!--明暗模式切换begin-->
+<link rel="stylesheet" type="text/css" href="./Articles.css">
+  <div id="container">
+    <label class="switch">
+      <input type="checkbox" onclick="changeMode()">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script>
+    function changeMode(){
+      var element =document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+<!--明暗模式切换end-->
+
 </div>
 </body>

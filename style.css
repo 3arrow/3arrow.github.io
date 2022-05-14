@@ -3,7 +3,7 @@ body{
     transition: .6s;
 }
 #container{
-    width: 5%;
+    width: 100%;
     height: 10vh;
     display: flex;
     flex-direction: column;
@@ -65,9 +65,13 @@ input:checked + .slider::before{
 a{
     color: #0b0a14;
 }
-.dark-mode a[i]{
-    color: #f7f0e9;
+
+p{
+    text-align: center;
 }
-.dark-mode document.write{
-    color: #f7f0e9;
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
