@@ -11,7 +11,7 @@
 
 <body>
 <div style="display: block; margin: 0 auto; min-width: 600px; max-width: 900px">
-<a href="../index.html" style="text-decoration: none; color: #0b0a14" target="_self">←返回首页</a>
+<a href="../index.html" style="text-decoration: none" target="_self">←返回首页</a>
 <div class="articles_title">
 <h1>互联网里的一席之地</h1>
 </div>
@@ -52,6 +52,24 @@
 <p>本文暂停更新至5/15</p>
 </div>
 
+<hr>
+<!--明暗模式切换begin-->
+<p class="articles_author">明暗模式切换</p>
+<link rel="stylesheet" type="text/css" href="./Articles.css">
+  <div id="container">
+    <label class="switch">
+      <input type="checkbox" onclick="changeMode()">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script>
+    function changeMode(){
+      var element =document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+<!--明暗模式切换end-->
+
 <!-- Gitalk -->
 <link href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.css" rel="stylesheet">
 <script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.js"></script>
@@ -71,23 +89,8 @@
 <!-- Gitalk end -->
 <br>
 
-<p>联系我:wjz99813@outlook.com</p>
+<p>联系我:wjz99813@outlook.com Copyright©3arrpw 2022</p>
 
-<!--明暗模式切换begin-->
-<link rel="stylesheet" type="text/css" href="./Articles.css">
-  <div id="container">
-    <label class="switch">
-      <input type="checkbox" onclick="changeMode()">
-      <span class="slider"></span>
-    </label>
-  </div>
-  <script>
-    function changeMode(){
-      var element =document.body;
-      element.classList.toggle("dark-mode");
-    }
-  </script>
-<!--明暗模式切换end-->
 
 </div>
 </body>
