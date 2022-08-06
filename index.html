@@ -3,28 +3,81 @@
   <title>3ArЯ0ω'B1og</title>
   <base href="3arrow.github.io" target="_blank">
   <link rel="icon" href="./favicon.png">
-  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-cache,no-store,must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="expires" content="0" />
-
-
-
+  <meta charset="UTF-8">
+  <style>
+    #top{
+    position:static;
+    width:100%;
+    height:100%;
+    text-align: center;
+    background:url(./img/head.jpg);
+    background-size: cover;
+    background-position:center;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    }
+    </style>
 </head>
+
 <body>
-  <div style="display: block; margin: 0 auto; min-width: 600px; max-width: 900px">
 
-  <h1>3ArЯ0ω'B1og</h1>
-    <p><a href="./feed.xml">
-         <img src="./rss.gif" width="36" height="14"></a></p>
 
+  <div id="top">
+    <div style="background-color: rgba(0, 0, 0, 0.3)">
+  <br>
+  <br>
+  <br>
+  <h1>一3ArЯ0ω'B1og一</h1>
+  <br>
+  <br>
+  <br>
+  <a href="index.html#main" style="text-decoration: none; color: #f7f0e9FF;font-size: 35px" target="_self">点击进入</a>
+  <!--随机语录begin-->
+<div class="link">
+  <script language="JavaScript">  
+
+  var a = Math.random() + ""          //产生一个随机数  
+  var rand1 = a.charAt(5)             //到这个数的第五个字符(实际还是从0~9的数字)  
+  quotes = new Array              //创建消息数组  
+  quotes[1] = '「一生经过彷徨的挣扎 自信可改变未来 问谁又能做到」'
+  quotes[2] = '你是从什么途径来到我的博客的？'  
+  quotes[3] = '你所热爱的,就是你的生活。'  
+  quotes[4] = 'null'
+  quotes[5] = '我是....'  
+  quotes[6] = '「原谅我这一生不羁放纵爱自由 也会怕有一天会跌倒」'  
+  quotes[7] = '「不需要被认可，但想要被关心。」'  
+  quotes[8] = '哎,好累'  
+  quotes[9] = '「我曾经失落失望失掉所有方向 直到看见平凡才是唯一的答案」'  
+  quotes[0] = '去看看书吧。'  
+  var quote = quotes[rand1]   //由随机数选择一句话  
+  //-->  
+  </script>  
+  <script language="JavaScript">  
+  <!-- Hide  
+  document.write("<p color=#f7f0e9>"+quote+"</p>")     //将上面选择的话写进页面  
+  // -->  
+  </script>  
+<!--随机语录end-->
+  <br>
+  <br>
+  <br>
+  </div>
+    </div>
+  </div>
+
+  <a name="main">
   <h2>关于我</h2>
-	 	  <p><a href="./AboutMe.html" style="text-decoration: none;" target="_self">关于我,3arrow</a></p>
+	 	  <p><a href="./AboutMe.html" style="text-decoration: none;" target="_self">关于我,3arrow</a></p></a>
 <!--articles-->
       <!--文章-->
 
 
       <h2>文章</h2>
-      <br>
       <h3>科技</h3>
       <!--1-->
       <p><a href="./Articles/1.html" style="text-decoration: none;" target="_self">23333</a></p>
@@ -54,35 +107,6 @@
       <p>邮箱:wjz99813@outlook.com</p>
       <p>我会定时回复大部分邮件,也许(?)</p>
 <br>
-
-<!--测试-->
-<p>随机信息板</p>
-<!--随机语录begin-->
-<div class="link">
-  <script language="JavaScript">  
-
-  var a = Math.random() + ""          //产生一个随机数  
-  var rand1 = a.charAt(5)             //到这个数的第五个字符(实际还是从0~9的数字)  
-  quotes = new Array              //创建消息数组  
-  quotes[1] = '「一生经过彷徨的挣扎 自信可改变未来 问谁又能做到」'
-  quotes[2] = '你是从什么途径来到我的博客的？'  
-  quotes[3] = '你所热爱的,就是你的生活。'  
-  quotes[4] = 'null'
-  quotes[5] = '我是....'  
-  quotes[6] = '「原谅我这一生不羁放纵爱自由 也会怕有一天会跌倒」'  
-  quotes[7] = '「不需要被认可，但想要被关心。」'  
-  quotes[8] = '哎,好累'  
-  quotes[9] = '「我曾经失落失望失掉所有方向 直到看见平凡才是唯一的答案」'  
-  quotes[0] = '去看看书吧。'  
-  var quote = quotes[rand1]   //由随机数选择一句话  
-  //-->  
-  </script>  
-  <script language="JavaScript">  
-  <!-- Hide  
-  document.write("<p><a>"+quote+"</a></p>")     //将上面选择的话写进页面  
-  // -->  
-  </script>  
-<!--随机语录end-->
 <hr>
 
 <!--明暗模式切换begin-->
@@ -102,4 +126,5 @@
   </script>
 <!--明暗模式切换end-->
 <p>Copyright©3arrow 2022</p>
+</div>
 </body>
