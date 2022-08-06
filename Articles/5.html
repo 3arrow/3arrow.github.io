@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>3ArЯ0ω'B1og</title>
+  <base href="3arrow.github.io" target="_blank">
+  <link rel="icon" href="../favicon.png">
+  <link rel="stylesheet" href="./Articles.css" type="text/css" >
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+</head>
+
+
+
+<body>
+<div style="display: block; margin: 0 auto; min-width: 600px; max-width: 900px">
+<a href="../index.html" style="text-decoration: none" target="_self">←返回首页</a>
+<div class="articles_title">
+<h1>一个大项目--Minecraft Texture Package</h1>      <!--标题-->
+</div>
+
+<div class="articles_author">
+<p>作者:我的世界3A 更新时间:2022/08/06</p>                               <!--时间-->
+</div>
+
+<div class="articles_content">                                      <!--正文-->
+<p>突然想做一个我的世界的纹理包</p>
+<p>可能会做好几个月,甚至几年(也有可能会放弃)</p>
+<p>以后的更新日志会再次发布</p>
+<hr>
+
+
+</div>
+
+
+<hr>
+<!--明暗模式切换begin-->
+<p class="articles_author">明暗模式切换</p>
+<link rel="stylesheet" type="text/css" href="./Articles.css">
+  <div id="container">
+    <label class="switch">
+      <input type="checkbox" onclick="changeMode()">
+      <span class="slider"></span>
+    </label>
+  </div>
+  <script>
+    function changeMode(){
+      var element =document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+<!--明暗模式切换end-->
+
+<!-- Gitalk -->
+<link href="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.css" rel="stylesheet">
+<script src="https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.2/gitalk.js"></script>
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+        clientID: '516ab00df112f0b85ae4',
+        clientSecret: '95ac3dd57ab59ccb3f745a9305d570e4985d4011',
+        repo: '3arrow.github.io',
+        owner: '3arrow',
+        admin: ['3arrow'],
+        id:decodeURI(window.location.pathname),
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
+<br>
+
+<p>联系我:wjz99813@outlook.com Copyright©3arrow 2022</p>
+
+
+</div>
+</body>
