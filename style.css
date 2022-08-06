@@ -50,6 +50,9 @@ body{
 input:checked + .slider::before{
     transform: translateX(26px);
 }
+
+
+
 .dark-mode {
     background: #0b0a14;
 }
@@ -57,6 +60,15 @@ input:checked + .slider::before{
     color: #f7f0e9;
 }
 .dark-mode h2{
+    color: #f7f0e9;
+}
+.dark-mode h3{
+    color: #f7f0e9;
+}
+.dark-mode h4{
+    color: #f7f0e9;
+}
+.dark-mode h5{
     color: #f7f0e9;
 }
 .dark-mode p{
@@ -69,6 +81,8 @@ a{
     color: #0b0a14;
 }
 
+
+
 p{
     text-align: center;
 }
@@ -76,5 +90,14 @@ h1{
     text-align: center;
 }
 h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
     text-align: center;
 }
