@@ -71,6 +71,9 @@ input:checked + .slider::before{
 .dark-mode h5{
     color: #f7f0e9;
 }
+.dark-mode h6{
+    color: #f7f0e9;
+}
 .dark-mode p{
     color: #f7f0e9;
 }
@@ -99,5 +102,8 @@ h4{
     text-align: center;
 }
 h5{
+    text-align: center;
+}
+h6{
     text-align: center;
 }

@@ -82,6 +82,18 @@ input:checked + .slider::before{
 .dark-mode h2{
     color: #f7f0e9;
 }
+.dark-mode h3{
+    color: #f7f0e9;
+}
+.dark-mode h4{
+    color: #f7f0e9;
+}
+.dark-mode h5{
+    color: #f7f0e9;
+}
+.dark-mode h6{
+    color: #f7f0e9;
+}
 .dark-mode p{
     color: #f7f0e9;
 }
