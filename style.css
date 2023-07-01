@@ -90,7 +90,7 @@ p{
     text-align: center;
 }
 h1{
-    text-align: center;
+    text-align: left;
 }
 h2{
     text-align: center;
@@ -106,4 +106,11 @@ h5{
 }
 h6{
     text-align: center;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
 }
